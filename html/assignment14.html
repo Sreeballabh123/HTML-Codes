@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms and userinputs</title>
+</head>
+<body  bgcolor="rainbow">
+    <form name="PERSONAL MEMORANDA" method="get">
+        Username:<input type="text"  name = "Username"><br>
+        Email:<input type="email" name="Email"><br>
+        Number:<input type = "number" name = "num" max="5" min="2"><br>
+        DOB:<input type="date" name="dob"><br>
+        Week:<input type="week" name="wk"><br>
+        time:<input type="time" name="tm"><br>
+        color:<input type="color" name="clr"><br>
+        Are you elegible?:<input type="checkbox" name="My eligibility"><br>
+        <div>
+        GENDER:Male<input type="radio" name="My Gender">
+               Female<input type="radio"name="My Gender">
+               Other<input type="radio" name="My Gender">
+        </div>
+        <button type = "Submit" bgcolor = yellow>SUBMIT</button><br>
+        <button type ="reset"bgcolor = green>RESET</button>
+        <br>
+        Write about yourself:<br><textarea name = "MyText" cols="90" rows="10"></textarea><br>
+        <label for="name">Name</label><br>
+        <input type="text" name="MyName" id="name"><br>
+        <br>
+        <label for="car">CAR</label>
+        <select name="Mycar" id="car">
+            <option value="Ben">Benz</option>
+            <option value="Swf">Swift</option>
+        </select>
+    </form>
+</body>
+</html>
